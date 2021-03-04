@@ -1,9 +1,4 @@
 (sym_lib_table
   (lib (name HGHardware-rescue)(type Legacy)(uri ${KIPRJMOD}/HGHardware-rescue.lib)(options "")(descr ""))
   (lib (name MyLib)(type Legacy)(uri ${KIPRJMOD}/MyLib.lib)(options "")(descr ""))
-  (lib (name PMIC-LDO-XC6206P332MR-G_SOT23_)(type Legacy)(uri ${KIPRJMOD}/PMIC-LDO-XC6206P332MR-G_SOT23_.lib)(options "")(descr ""))
-  (lib (name SHT20)(type Legacy)(uri ${KIPRJMOD}/SHT20.lib)(options "")(descr ""))
-  (lib (name ESP-12S)(type Legacy)(uri ${KIPRJMOD}/ESP-12S.lib)(options "")(descr ""))
-  (lib (name W25Q32FWSSIG)(type Legacy)(uri ${KIPRJMOD}/W25Q32FWSSIG.lib)(options "")(descr ""))
-  (lib (name CS4344-CZZR)(type Legacy)(uri ${KIPRJMOD}/CS4344-CZZR.lib)(options "")(descr ""))
 )
