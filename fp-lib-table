@@ -1,0 +1,9 @@
+(fp_lib_table
+  (lib (name QFP80P2390X1790X340-80N)(type Legacy)(uri ${KIPRJMOD}/QFP80P2390X1790X340-80N.mod)(options "")(descr ""))
+  (lib (name SHT20)(type Legacy)(uri ${KIPRJMOD}/SHT20.mod)(options "")(descr ""))
+  (lib (name HGHardware)(type KiCad)(uri ${KIPRJMOD}/HGHardware.pretty)(options "")(descr ""))
+  (lib (name ESP-12S)(type Legacy)(uri ${KIPRJMOD}/ESP-12S.mod)(options "")(descr ""))
+  (lib (name SOIC127P790X216-8N)(type Legacy)(uri ${KIPRJMOD}/SOIC127P790X216-8N.mod)(options "")(descr ""))
+  (lib (name CS4344-CZZR)(type Legacy)(uri ${KIPRJMOD}/CS4344-CZZR.mod)(options "")(descr ""))
+  (lib (name in-14jack)(type KiCad)(uri "${KIPRJMOD}/IN-14 Jack/in-14jack/in-14jack.pretty")(options "")(descr ""))
+)

@@ -1,0 +1,4 @@
+(fp_lib_table
+  (lib (name in-14jack)(type KiCad)(uri ${KIPRJMOD}/in-14jack.pretty)(options "")(descr ""))
+  (lib (name HGHardware)(type KiCad)(uri /WD/Workspaces/MyNixieTubeClock/HGHardware/HGHardware.pretty)(options "")(descr ""))
+)
