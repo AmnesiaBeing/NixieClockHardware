@@ -1,3 +1,11 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP HV507PG-G
+F Microchip
+$ENDCMP
+#
+$CMP MAX1771
+F SOIC-8 Maxim Integrated
+$ENDCMP
+#
 #End Doc Library
