@@ -1,17 +1,3 @@
 EESchema-DOCLIB  Version 2.0
 #
-$CMP CH340K
-D USB serial converter, UART, ESSOP-10
-K USB UART Serial Converter Interface
-F https://www.mpja.com/download/35227cpdata.pdf
-$ENDCMP
-#
-$CMP HV507PG-G
-F Microchip
-$ENDCMP
-#
-$CMP MAX1771
-F SOIC-8 Maxim Integrated
-$ENDCMP
-#
 #End Doc Library
