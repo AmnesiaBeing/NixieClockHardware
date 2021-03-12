@@ -1,4 +1,4 @@
-(kicad_pcb (version 20171130) (host pcbnew 5.1.9)
+(kicad_pcb (version 20171130) (host pcbnew "(5.1.8)-1")
 
   (general
     (thickness 1.6)
@@ -30,7 +30,7 @@
   )
 
   (setup
-    (last_trace_width 0.5)
+    (last_trace_width 0.25)
     (user_trace_width 0.5)
     (trace_clearance 0.125)
     (zone_clearance 0.254)
@@ -56,7 +56,7 @@
     (pad_drill 0.762)
     (pad_to_mask_clearance 0)
     (aux_axis_origin 0 0)
-    (visible_elements FFFFFF7F)
+    (visible_elements 7FFFFFFF)
     (pcbplotparams
       (layerselection 0x010fc_ffffffff)
       (usegerberextensions false)
@@ -1709,9 +1709,6 @@
   (via (at 118.5 82.5) (size 0.6) (drill 0.3) (layers F.Cu B.Cu) (net 75) (tstamp 6049D726))
   (segment (start 118.525 82.525) (end 118.5 82.5) (width 0.5) (layer F.Cu) (net 75) (tstamp 6049D727))
   (segment (start 119.5 82.525) (end 118.525 82.525) (width 0.5) (layer F.Cu) (net 75) (tstamp 6049D728))
-  (via (at 126.5 83.5) (size 0.6) (drill 0.3) (layers F.Cu B.Cu) (net 75) (tstamp 6049D729))
-  (segment (start 126.45 83.55) (end 126.5 83.5) (width 0.5) (layer F.Cu) (net 75) (tstamp 6049D72A))
-  (segment (start 126.45 84.6) (end 126.45 83.55) (width 0.5) (layer F.Cu) (net 75) (tstamp 6049D72B))
   (via (at 142.5 83.5) (size 0.6) (drill 0.3) (layers F.Cu B.Cu) (net 75) (tstamp 6049D72C))
   (segment (start 142.45 83.55) (end 142.5 83.5) (width 0.5) (layer F.Cu) (net 75) (tstamp 6049D72D))
   (segment (start 142.45 84.6) (end 142.45 83.55) (width 0.5) (layer F.Cu) (net 75) (tstamp 6049D72E))
@@ -1736,6 +1733,9 @@
   (via (at 178.5 82.5) (size 0.6) (drill 0.3) (layers F.Cu B.Cu) (net 75) (tstamp 6049D741))
   (segment (start 178.525 82.525) (end 178.5 82.5) (width 0.5) (layer F.Cu) (net 75) (tstamp 6049D742))
   (segment (start 179.5 82.525) (end 178.525 82.525) (width 0.5) (layer F.Cu) (net 75) (tstamp 6049D743))
+  (via (at 127 84.99999) (size 0.6) (drill 0.3) (layers F.Cu B.Cu) (net 75))
+  (segment (start 126.45 84.6) (end 126.84999 84.99999) (width 0.5) (layer F.Cu) (net 75))
+  (segment (start 126.84999 84.99999) (end 127 84.99999) (width 0.5) (layer F.Cu) (net 75))
   (segment (start 172.214002 82.4) (end 171.45 82.4) (width 0.25) (layer F.Cu) (net 79))
   (segment (start 174.414002 84.6) (end 172.214002 82.4) (width 0.25) (layer F.Cu) (net 79))
   (segment (start 182.55 84.6) (end 174.414002 84.6) (width 0.25) (layer F.Cu) (net 79))

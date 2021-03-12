@@ -591,7 +591,7 @@ Wire Wire Line
 Wire Wire Line
 	9850 5950 10400 5950
 Wire Wire Line
-	7100 4250 7650 4250
+	9850 2950 10400 2950
 $Comp
 L Device:C C15
 U 1 1 5CED3A30
@@ -868,9 +868,9 @@ F 8 "Shift Register/Latch/Driver Single 64-Bit Serial to Parallel 80-Pin PQFP" H
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	7100 4150 7650 4150
+	9850 2850 10400 2850
 Wire Wire Line
-	7100 4350 7650 4350
+	7900 2850 8450 2850
 Wire Wire Line
 	9850 4050 10400 4050
 Wire Wire Line
@@ -966,15 +966,15 @@ F 3 "" H 6000 5600 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	7100 4450 7650 4450
+	7900 2950 8450 2950
 NoConn ~ 7250 5500
-Text Label 7650 4250 2    50   ~ 0
+Text Label 10400 2950 2    50   ~ 0
 ND2
-Text Label 7650 4150 2    50   ~ 0
+Text Label 10400 2850 2    50   ~ 0
 ND1
-Text Label 7100 4450 0    50   ~ 0
+Text Label 7900 2950 0    50   ~ 0
 ND4
-Text Label 7100 4350 0    50   ~ 0
+Text Label 7900 2850 0    50   ~ 0
 ND3
 Wire Wire Line
 	7250 5000 7350 5000
@@ -1151,4 +1151,90 @@ Wire Wire Line
 Connection ~ 5500 2850
 Wire Wire Line
 	5500 2850 5600 2850
+$Comp
+L Connector_Generic:Conn_01x06 J?
+U 1 1 604B7938
+P 3200 5200
+F 0 "J?" H 3280 5192 50  0000 L CNN
+F 1 "Conn_01x06" H 3280 5101 50  0000 L CNN
+F 2 "" H 3200 5200 50  0001 C CNN
+F 3 "~" H 3200 5200 50  0001 C CNN
+	1    3200 5200
+	1    0    0    -1  
+$EndComp
+Text Label 2550 5000 0    50   ~ 0
+HV_CLK_5V
+Wire Wire Line
+	2550 5000 3000 5000
+Wire Wire Line
+	3000 5100 2550 5100
+Wire Wire Line
+	3000 5200 2550 5200
+Wire Wire Line
+	3000 5300 2550 5300
+Wire Wire Line
+	3000 5400 2550 5400
+Wire Wire Line
+	3000 5500 2550 5500
+Text Label 2550 5100 0    50   ~ 0
+HV_LE_5V
+Text Label 2550 5200 0    50   ~ 0
+HV_DIN_5V
+$Comp
+L power:GNDD #PWR?
+U 1 1 604FC080
+P 2550 5500
+F 0 "#PWR?" H 2550 5250 50  0001 C CNN
+F 1 "GNDD" H 2554 5345 50  0000 C CNN
+F 2 "" H 2550 5500 50  0001 C CNN
+F 3 "" H 2550 5500 50  0001 C CNN
+	1    2550 5500
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR?
+U 1 1 604FCB8A
+P 2550 5400
+F 0 "#PWR?" H 2550 5250 50  0001 C CNN
+F 1 "+5V" H 2450 5500 50  0000 C CNN
+F 2 "" H 2550 5400 50  0001 C CNN
+F 3 "" H 2550 5400 50  0001 C CNN
+	1    2550 5400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x02 J?
+U 1 1 604FCF9D
+P 3200 6000
+F 0 "J?" H 3280 5992 50  0000 L CNN
+F 1 "Conn_01x02" H 3280 5901 50  0000 L CNN
+F 2 "" H 3200 6000 50  0001 C CNN
+F 3 "~" H 3200 6000 50  0001 C CNN
+	1    3200 6000
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 604FDB27
+P 3000 6100
+F 0 "#PWR?" H 3000 5850 50  0001 C CNN
+F 1 "GND" V 3005 5972 50  0000 R CNN
+F 2 "" H 3000 6100 50  0001 C CNN
+F 3 "" H 3000 6100 50  0001 C CNN
+	1    3000 6100
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:VPP #PWR?
+U 1 1 604FE276
+P 3000 6000
+F 0 "#PWR?" H 3000 5850 50  0001 C CNN
+F 1 "VPP" H 3015 6173 50  0000 C CNN
+F 2 "" H 3000 6000 50  0001 C CNN
+F 3 "" H 3000 6000 50  0001 C CNN
+	1    3000 6000
+	1    0    0    -1  
+$EndComp
+Text Label 2550 5300 0    50   ~ 0
+RGBLED_5V
 $EndSCHEMATC
