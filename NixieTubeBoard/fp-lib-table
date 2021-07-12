@@ -1,3 +1,0 @@
-(fp_lib_table
-  (lib (name HGHardware)(type KiCad)(uri ${KIPRJMOD}/../HGHardware.pretty)(options "")(descr ""))
-)
